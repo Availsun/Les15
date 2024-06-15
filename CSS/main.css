@@ -1,0 +1,184 @@
+body {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;  
+    font-family: monospace, sans-serif;
+    font-style: normal;
+    justify-content: center;
+    align-items: center; 
+    margin:0;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 30px; 
+    margin-top: 0; 
+}
+
+ul a {
+    color: rgb(135, 0, 67);
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: black;
+}
+
+li {
+    display: inline-block;
+    width: 420px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(255, 0, 128);
+    background-color: rgb(246, 225, 108);
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+li:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.imgPortrait {
+    width: 600px;
+    border-style: solid;
+    border-color:rgb(255, 255, 255);
+    border-width: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.textContainer_1 {
+   font-size: 15px;
+   line-height: 20px;
+   text-align: center;
+   width: 650px;
+   color: white;
+   background-color: rgb(26, 11, 0);
+   padding-top: 20px;
+   padding-bottom: 20px;      
+}
+
+.textContainer {
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    width: 590px;
+    color: white;
+    background-color: rgb(26, 11, 0);
+    padding: 30px;   
+    margin-bottom: 50px;   
+}
+
+.Text_co {
+    color: crimson;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(218, 205, 132);
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%; 
+    max-width: 900px; 
+    color: rgb(106, 0, 53);
+    margin-bottom: 100px;
+    margin-top: 30px;
+ 
+}
+
+th, td {
+    background-color: rgb(246, 225, 108);
+    border: 1px solid black; 
+    padding: 50px; 
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 300px;
+
+}
+
+th {
+    background-color: rgb(135, 0, 67);
+    color: white;
+}
+
+.containerForm {
+    background-color: rgb(246, 225, 108);
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}  
+
+.containerForm h2 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(135, 0, 67);
+}
+
+input[type="text"], input[type="email"], textarea, select, button {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    padding: 20px;
+    background-color: rgb(135, 0, 67);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(173, 144, 39);
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: rgb(54, 22, 0);
+    transform: scale(0.95);
+}
